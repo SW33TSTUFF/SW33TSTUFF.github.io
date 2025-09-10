@@ -3,21 +3,286 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Computer Science Projects - Simaak</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Simaak. This is my portfolio.</p>
-  </header>
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="#">Project 1</a></li>
-      <li><a href="#">Project 2</a></li>
-      <li><a href="#">Project 3</a></li>
-    </ul>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Computer Science Projects</h1>
+      <p class="hero-subtitle">A comprehensive showcase of my technical projects, algorithms, and software development work</p>
+      <a href="#projects" class="cta-button">Explore Projects</a>
+    </div>
   </section>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <h2 class="nav-title">Simaak's CS Portfolio</h2>
+        <div class="nav-links">
+          <a href="#web-development" class="nav-link">Web Development</a>
+          <a href="#algorithms" class="nav-link">Algorithms</a>
+          <a href="#machine-learning" class="nav-link">Machine Learning</a>
+          <a href="#mobile-apps" class="nav-link">Mobile Apps</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <main id="projects" class="projects">
+    <div class="container">
+      
+      <!-- Web Development Projects -->
+      <section id="web-development" class="project-category">
+        <h2 class="category-title">Web Development</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+            <p class="project-description">
+              A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard. Features include real-time inventory management and order tracking.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Task Management System</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Collaborative task management application with real-time updates, team collaboration features, and advanced filtering capabilities.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Weather Dashboard</h3>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">API</span>
+                <span class="tech-tag">Chart.js</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Interactive weather dashboard with location-based forecasts, historical data visualization, and customizable weather alerts.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Algorithms Projects -->
+      <section id="algorithms" class="project-category">
+        <h2 class="category-title">Algorithms & Data Structures</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Pathfinding Visualizer</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pygame</span>
+                <span class="tech-tag">A* Algorithm</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Interactive visualization tool for various pathfinding algorithms including A*, Dijkstra's, and BFS with customizable grid sizes and obstacles.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Sorting Algorithm Analyzer</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Swing</span>
+                <span class="tech-tag">Performance Analysis</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Comprehensive analysis tool comparing sorting algorithms with performance metrics, memory usage tracking, and visual comparisons.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Graph Theory Solver</h3>
+              <div class="project-tech">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Graph Algorithms</span>
+                <span class="tech-tag">Visualization</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Advanced graph theory problem solver implementing various algorithms for shortest path, minimum spanning tree, and network flow problems.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Machine Learning Projects -->
+      <section id="machine-learning" class="project-category">
+        <h2 class="category-title">Machine Learning & AI</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Image Classification Model</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">CNN</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Deep learning model for image classification using convolutional neural networks with 95% accuracy on custom dataset.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Sentiment Analysis Tool</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NLTK</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Natural language processing tool for sentiment analysis of social media posts with real-time processing capabilities.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Recommendation System</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Collaborative Filtering</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Movie recommendation system using collaborative filtering and content-based approaches with user preference learning.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Mobile Apps -->
+      <section id="mobile-apps" class="project-category">
+        <h2 class="category-title">Mobile Applications</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Fitness Tracker App</h3>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Charts</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Cross-platform fitness tracking application with workout logging, progress visualization, and social features for motivation.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">App Store</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Study Planner</h3>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">Notifications</span>
+              </div>
+            </div>
+            <p class="project-description">
+              Smart study planning application with adaptive scheduling, progress tracking, and reminder notifications for students.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">Play Store</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2024 Simaak. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#" class="footer-link">LinkedIn</a>
+          <a href="#" class="footer-link">GitHub</a>
+          <a href="#" class="footer-link">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
