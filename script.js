@@ -17,23 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Add scroll effect to navigation
-  const nav = document.querySelector('.nav');
-  let lastScrollY = window.scrollY;
-
-  window.addEventListener('scroll', () => {
-    const currentScrollY = window.scrollY;
-    
-    if (currentScrollY > 100) {
-      nav.style.background = 'rgba(0, 0, 0, 0.95)';
-      nav.style.backdropFilter = 'blur(10px)';
-    } else {
-      nav.style.background = '#000000';
-      nav.style.backdropFilter = 'none';
-    }
-    
-    lastScrollY = currentScrollY;
-  });
+  // Navbar scroll effects removed since navbar is no longer sticky
 
   // Intersection Observer for project cards animation
   const observerOptions = {
