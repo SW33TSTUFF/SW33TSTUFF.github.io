@@ -244,6 +244,9 @@ body {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .project-card::before {
@@ -299,11 +302,13 @@ body {
   color: #b0b0b0;
   margin-bottom: 25px;
   line-height: 1.7;
+  flex-grow: 1;
 }
 
 .project-links {
   display: flex;
   gap: 15px;
+  margin-top: auto;
 }
 
 .project-link {
