@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentScrollY = window.scrollY;
     
     if (currentScrollY > 100) {
-      nav.style.background = 'rgba(26, 26, 26, 0.95)';
+      nav.style.background = 'rgba(0, 0, 0, 0.95)';
       nav.style.backdropFilter = 'blur(10px)';
     } else {
-      nav.style.background = '#1a1a1a';
+      nav.style.background = '#000000';
       nav.style.backdropFilter = 'none';
     }
     
