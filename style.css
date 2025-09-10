@@ -84,12 +84,13 @@ body {
 /* Navigation */
 .nav {
   background: #1a1a1a;
-  padding: 20px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #333333;
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(10px);
+  border-radius: 0 0 12px 12px;
 }
 
 .nav-content {
@@ -100,43 +101,100 @@ body {
   gap: 20px;
 }
 
-.nav-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #ffffff;
+/* Logo Section */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+  border-radius: 8px;
+  color: #000000;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Navigation Links */
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 32px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-link {
-  color: #b0b0b0;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.95rem;
   transition: color 0.3s ease;
   position: relative;
 }
 
 .nav-link:hover {
+  color: #b0b0b0;
+}
+
+/* Action Buttons */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-btn {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #444444;
+  border-radius: 8px;
   color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 0;
-  height: 2px;
+.profile-btn:hover {
+  background: #333333;
+  border-color: #555555;
+}
+
+.download-cv-btn {
   background: #ffffff;
-  transition: width 0.3s ease;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
 }
 
-.nav-link:hover::after {
-  width: 100%;
+.download-cv-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-1px);
+}
+
+.download-cv-btn svg {
+  flex-shrink: 0;
 }
 
 /* Projects Section */
@@ -314,9 +372,15 @@ body {
   .nav-content {
     flex-direction: column;
     text-align: center;
+    gap: 15px;
   }
   
   .nav-links {
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-actions {
     justify-content: center;
   }
   

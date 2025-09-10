@@ -101,10 +101,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Add click effect to CTA button
-  const ctaButton = document.querySelector('.cta-button');
-  if (ctaButton) {
-    ctaButton.addEventListener('click', function(e) {
+  // Add functionality to profile button
+  const profileBtn = document.querySelector('.profile-btn');
+  if (profileBtn) {
+    profileBtn.addEventListener('click', function() {
+      // You can add profile functionality here
+      console.log('Profile button clicked');
+      // For now, just scroll to about section if it exists
+      const aboutSection = document.querySelector('#about');
+      if (aboutSection) {
+        aboutSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  }
+
+  // Add functionality to download CV button
+  const downloadCvBtn = document.querySelector('.download-cv-btn');
+  if (downloadCvBtn) {
+    downloadCvBtn.addEventListener('click', function(e) {
       e.preventDefault();
       
       // Create ripple effect
@@ -125,14 +142,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ripple.remove();
       }, 600);
       
-      // Scroll to projects section
-      const projectsSection = document.querySelector('#projects');
-      if (projectsSection) {
-        projectsSection.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
+      // Add download functionality
+      // Replace 'your-cv.pdf' with the actual path to your CV
+      const link = document.createElement('a');
+      link.href = 'your-cv.pdf'; // Update this with your actual CV file path
+      link.download = 'Simaak-CV.pdf';
+      link.click();
     });
   }
 
