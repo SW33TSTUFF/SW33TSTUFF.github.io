@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Simaak - Responsive HTML5 OnePage Template</title>  
+    <title>Simaak</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -119,26 +119,27 @@
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>Portfolio</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+                <p>Here are selected projects demonstrating responsive web apps, frontend engineering, and user-centered design. Highlights include interactive dashboards, accessible interfaces, and performance-optimized sites — each project includes a short case note and links to the live demo or source code.</p>
             </div><!-- end title -->
 			
 			<div class="gallery-menu row">
 				<div class="col-md-12">
-					<div class="button-group filter-button-group text-left">
-						<button class="active" data-filter="*">All</button>
-						<button data-filter=".gal_a">Web Development</button>
-						<button data-filter=".gal_b">Creative Design</button>
-						<button data-filter=".gal_c">Graphic Design</button>
-					</div>
+                    <div class="button-group filter-button-group text-left">
+                        <button class="active" data-filter="*">All</button>
+                        <button data-filter=".gal_d">Group Projects</button>
+                        <button data-filter=".gal_a">Personal Projects</button>
+                        <button data-filter=".gal_b">Creative Design</button>
+                        <button data-filter=".gal_c">Graphic Design</button>
+                    </div>
 				</div>
 			</div>
 			
 			<div class="gallery-list row">
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b gal_d">
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal1" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -147,7 +148,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal2" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -156,7 +157,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal3" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -165,7 +166,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal4" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -174,7 +175,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal5" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -183,7 +184,7 @@
 					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+							<a href="#" data-toggle="modal" data-target="#projectModal6" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
@@ -191,6 +192,163 @@
 			</div>
 		</div>
 	</div>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">Project Name 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-01.jpg" class="img-fluid mb-3" alt="Project 1">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Project Name 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-02.jpg" class="img-fluid mb-3" alt="Project 2">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">Project Name 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-03.jpg" class="img-fluid mb-3" alt="Project 3">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-labelledby="projectModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal4Label">Project Name 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-04.jpg" class="img-fluid mb-3" alt="Project 4">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="projectModal5" tabindex="-1" role="dialog" aria-labelledby="projectModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal5Label">Project Name 5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-05.jpg" class="img-fluid mb-3" alt="Project 5">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="projectModal6" tabindex="-1" role="dialog" aria-labelledby="projectModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal6Label">Project Name 6</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="uploads/gallery_img-06.jpg" class="img-fluid mb-3" alt="Project 6">
+                    <h6>Project Description</h6>
+                    <p>Add your project description here. Explain the technologies used, your role, key features, and outcomes. This is a great place to showcase your technical skills and problem-solving approach.</p>
+                    <h6>Technologies Used</h6>
+                    <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+                    <h6>Links</h6>
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     
     
 
