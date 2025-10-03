@@ -630,16 +630,27 @@ xclip
 
 
 
-.right-box-pro{
+/* .right-box-pro{
 	position: relative;
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
-}
+} */
 .right-box-pro img{
-	position: relative;
-	z-index: 2;
+    position: relative;
+    z-index: 2;
+    max-width: 70%; /* limit width on larger screens */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.right-box-pro::before {
+
+/* @media (max-width: 768px) {
+    .right-box-pro img {
+        max-width: 100%; /* full width on small screens */
+    }
+} */
+/* .right-box-pro::before {
     content: "";
     background: url(images/country-quilt-dark.png);
     width: 100%;
@@ -648,7 +659,7 @@ xclip
     bottom: -20px;
     right: -20px;
     z-index: 0;
-}
+} */
 
 
 
