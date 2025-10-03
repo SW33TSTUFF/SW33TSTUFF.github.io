@@ -84,7 +84,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #000000;
     margin: 0
 }
 
@@ -374,7 +374,7 @@ a img.aligncenter {
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 82px;
 	text-transform: uppercase;
 }
 .heading p{
@@ -447,7 +447,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #000000;
 }
 
 #clouds{
@@ -567,13 +567,13 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+	color: #000000;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid #333333;
+	border: 1px solid #000000;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -614,7 +614,7 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #000000;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
@@ -665,7 +665,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: #000000;
 }
 .services-inner-box h2{
 	font-size: 22px;
@@ -842,7 +842,7 @@ xclip
 
 .testimonial h4 {
     font-size: 18px;
-    color: #333333;
+    color: #000000;
     padding: 13px 0 0;
 }
 
@@ -1076,6 +1076,15 @@ xclip
     font-size: 11px;
 }
 
+/* subtle divider used under the hero/banner */
+.hero-divider {
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.06) 25%, rgba(0,0,0,0.12) 50%, rgba(0,0,0,0.06) 75%, rgba(255,255,255,0) 100%);
+    margin: 0 auto;
+    display: block;
+}
+
 
 /*------------------------------------------------------------------
     MESSAGE BOXES
@@ -1109,7 +1118,7 @@ xclip
 }
 
 .event_dit ul li a:hover{
-	color: #333333;
+	color: #000000;
 }
 
 .service-widget h3 {
@@ -1124,7 +1133,7 @@ xclip
 	position: relative;
 }
 .participate-wrap figure::before{
-	background-color: #333333;
+	background-color: #000000;
 	content: "";
 	position: absolute;
 	border-radius: 100%;
@@ -1279,7 +1288,7 @@ xclip
 }
 
 .hoverbutton {
-    background-color: #333333;
+    background-color: #000000;
     position: absolute;
     color: #ffffff !important;
     top: 70%;
@@ -1424,7 +1433,7 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #333333;
+	background: #000000;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
@@ -1487,7 +1496,7 @@ hr.invis1 {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	background: #333333;
+	background: #000000;
 	color: #fff;
 	padding: 10px 15px;
 	text-align: center;
@@ -1734,7 +1743,7 @@ hr.invis1 {
 }
 
 .bootstrap-select .dropdown-toggle:focus {
-    outline: thin dotted #333333 !important;
+    outline: thin dotted #000000 !important;
     outline: 5px auto -webkit-focus-ring-color !important;
     outline-offset: -2px;
 }
@@ -2046,7 +2055,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #000000;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
@@ -2081,7 +2090,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    background: url(images/bg.png) no-repeat center center #000000;
 }
 
 
@@ -2172,7 +2181,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #333333 !important;
+    color: #000000 !important;
 }
 
 .footer-links li {
@@ -2395,7 +2404,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333333;
+    background: #000000;
     z-index: 11000;
     position: fixed;
     display: block
